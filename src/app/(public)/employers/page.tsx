@@ -1,4 +1,5 @@
-import type { Metadata } from "next";
+"use client";
+
 import Link from "next/link";
 import {
   ArrowRight,
@@ -39,11 +40,6 @@ import {
   AccordionContent,
 } from "@/components/ui/accordion";
 
-export const metadata: Metadata = {
-  title: "For Employers | Recruitment Maneuver",
-  description:
-    "AI-powered PCCM physician recruiting. Reduce time-to-hire by 60%, cut vacancy costs, and build your Pulmonary & Critical Care team with confidence.",
-};
 
 const painPoints = [
   {

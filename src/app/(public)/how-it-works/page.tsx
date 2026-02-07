@@ -1,4 +1,5 @@
-import type { Metadata } from "next";
+"use client";
+
 import Link from "next/link";
 import {
   UserCircle,
@@ -36,11 +37,6 @@ import {
   AccordionContent,
 } from "@/components/ui/accordion";
 
-export const metadata: Metadata = {
-  title: "How It Works | Recruitment Maneuver",
-  description:
-    "Learn how Recruitment Maneuver combines AI screening with dedicated PCCM specialists to match physicians and employers through a structured, transparent process.",
-};
 
 const physicianSteps = [
   {

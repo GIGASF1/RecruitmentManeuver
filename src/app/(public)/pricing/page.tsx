@@ -1,4 +1,5 @@
-import type { Metadata } from "next";
+"use client";
+
 import Link from "next/link";
 import { Check, ArrowRight, Star, Zap, Crown } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -20,11 +21,6 @@ import {
 } from "@/components/ui/accordion";
 import { Separator } from "@/components/ui/separator";
 
-export const metadata: Metadata = {
-  title: "Pricing | Recruitment Maneuver",
-  description:
-    "Simple, transparent pricing for PCCM physicians and employers. Start free or choose the plan that fits your recruiting needs.",
-};
 
 const physicianPlans = [
   {
